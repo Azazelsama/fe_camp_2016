@@ -1,0 +1,29 @@
+body {
+    background-image: url("../img/b1.jpg");
+    background-size: cover;
+}
+#logo{
+    position: relative;
+    top:50px;
+    text-align: center;
+}
+.login-content{
+    position: relative;
+    top:50px;
+    color:#ffffff;
+    text-align: center;
+}
+input{
+    height: 17px;
+    width: 150px;
+    margin:7px;
+    font-size: 10px;
+    border-radius: 10px;
+}
+button{
+    height: 23px;
+    width: 80px;
+    border-radius: 10px;
+    position: relative;
+    top:15px;
+}
