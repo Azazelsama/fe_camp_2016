@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <title>task002</title>
+    <style>
+        .img-box{
+            height: 600px;
+            width: 500px;
+            position: relative;
+        }
+        img{
+            height: 70%;
+            top:200px;
+            width: auto;
+            left: 150px;
+            position: absolute;
+        }
+        .btn-box{
+            top: 300px;
+            position: absolute;
+            left: 800px;
+            width: 100px;
+
+        }
+        button#bw{
+              padding-right: 100px;
+              font-size: 35px;
+              width: 240px;
+              height: 49px;
+              border: none;
+              border-radius: 7px;
+            margin: 20px;
+
+          }
+        button#xx{
+            padding-right: 100px;
+            font-size: 35px;
+            color: powderblue;
+            width: 240px;
+            height: 49px;
+            border: none;
+            border-radius: 7px;
+            margin: 20px;
+        }
+
+    </style>
+</head>
+<body background="img/bw-bg.png">
+<div class="img-box">
+    <img id="img" src="img/bw.png">
+</div>
+<div class="btn-box">
+    <button id="bw"  style=" background-image: url(img/btn-blue.png);color: black;">巴卫</button>
+    <button id="xx"  style=" background-image: url(img/btn-gray.png);color: powderblue;">小新</button>
+</div>
+<script>
+    var btns=document.getElementsByTagName("button");
+    var img=document.getElementById("img");
+    for(var i=0;i<btns.length;i++){
+        btns[i].onclick=function(){
+            var id=this.id;
+            SwitchPicture(id);
+            Changebg(id);
+            Changebtn(id);
+
+        }
+    }
+    function SwitchPicture(id){
+        img.setAttribute("src","img/"+id+".png");
+        }
+    function Changebg(id){
+        document.body.background="img/"+id+"-bg.png"
+    }
+    function  Changebtn(id){
+        for(var i=0;i<btns.length;i++){
+            if(btns[i].id==id){
+                btns[i].style.color="black";
+                btns[i].style.backgroundImage="url('img/btn-blue.png')"
+            }
+            else{
+                btns[i].style.color="powderblue";
+                btns[i].style.backgroundImage="url('img/btn-gray.png')"
+            }
+        }
+    }
+</script>
+</body>
+</html>
