@@ -1,0 +1,62 @@
+.nav{
+    float: right;
+    margin-top: 10px;
+    min-width: 420px;
+}
+.nav a{
+    float: left;
+    margin-right: 10px;
+    font-size: 13px;
+    line-height: 24px;
+    overflow: hidden;
+}
+.a1{
+    display: inline-block;
+    background: #38f;
+    right: 10px;
+    width: 60px;
+    height: 24px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.logo{
+    text-align: center;
+    clear: both;
+    min-width: 500px;
+    overflow: hidden;
+}
+.input{
+    text-align: center;
+    margin-top: 30px;
+}
+.input1{
+    width: 500px;
+    height: 30px;
+}
+.input2{
+    position: relative;
+    right: 10px;
+    width: 110px;
+    height: 35px;
+    background-color: #3388ff;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+}
+.one{
+    text-align: center;
+    margin-top: 400px;
+    overflow: inherit;
+}
+.two {
+    text-align: center;
+    overflow: inherit;
+}
+.detail{
+    font-size: 15px;
+    color: darkgray;
+}
+.detail a{
+    color: darkgray;
+}
