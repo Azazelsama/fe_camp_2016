@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+.part1{
+    height: 330px;
+    width: auto;
+    background-color:aqua;
+}
+h1{
+   margin: 0 auto 30px auto;
+    text-align:center;
+    font-family: fantasy;
+    font-size: 50px;
+}
+.img1{
+    height: 200px;
+    width: 160px;
+    float: right;
+    margin: 0 50px;
+}
+.part1 p{
+    margin-left: 50px;
+    font-size: 25px;
+}
+.part2{
+    margin-top: -30px;
+    height: 600px;
+    width: auto;
+    background-color: antiquewhite;
+
+}
+.part2 p{
+    margin-left: 50px;
+    font-size: 25px;
+}
+.part2 ul{
+    margin-left: 50px;
+    font-size: 20px;
+}

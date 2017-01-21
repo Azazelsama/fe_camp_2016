@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>白度</title>
+    <link rel="stylesheet" href="临摹改.css">
+    <script>
+        function openLogin(){
+            document.getElementById("login").style.display="block"
+        }
+        function closeLogin(){
+            document.getElementById("login").style.display="none"
+        }
+
+    </script>
+</head>
+<body>
+<div class="nav">
+    <a href="#">糯米</a>
+    <a href="#">新闻</a>
+    <a href="#">hao123</a>
+    <a href="#">地图</a>
+    <a href="#">视频</a>
+    <a href="#">视频</a>
+    <a href="#">贴吧</a>
+    <a href="#" onclick="openLogin()">登录</a>
+    <div class="dropdown">
+        <a href="#" class="dropbtn">设置</a>
+        <div class="dropdown-content">
+            <a href="#">搜索设置</a>
+            <a href="#">高级搜索</a>
+            <a href="#">开启预测</a>
+            <a href="#">搜索历史</a>
+        </div>
+    </div>
+    <div class="dropdown2">
+        <a href="#" class="a1" style="display: block">更多产品</a>
+        <div class="dropdown2-content" style="height: 717px">
+            <a href="#"><span></span>音乐</a>
+            <a href="#"><span></span>图片</a>
+            <a href="#"><span></span>知道</a>
+            <a href="#"><span></span>文库</a>
+            <a href="#"><span></span>风云榜</a>
+            <a href="#">全部产品</a>
+        </div>
+    </div>
+</div>
+<div id="login">
+    <div style="height: 50px;background-color: gainsboro" >
+        <p style="margin-top: 15px;margin-left: 20px;float: left">登录百度帐号</p>
+        <span onclick="closeLogin()" style="float: right;margin-right: 20px;margin-top: 15px;cursor: pointer">关闭</span>
+    </div>
+    <div class="login1">
+        <input type="text" name="username" placeholder="手机/邮箱/用户名"
+               style="height: 30px;width: 340px;padding-left: 20px">
+    </div>
+    <div class="login2">
+        <input type="text" name="password" placeholder="密码"
+               style="height: 30px;width: 340px;padding-left: 20px">
+    </div>
+    <div>
+        <p style="float: right;margin-top: 0;margin-right:30px" ><a href="#" style="text-decoration: none">登录遇到问题</a></p>
+        <p style="margin-left: 25px"><input type="checkbox" >下次自动登录</p>
+    </div>
+    <div>
+        <button type="submit" style="width: 363px;height: 40px;padding: 0;border: 0;
+        background-color: #3388ff;border-radius: 4px;color: white;font-size: 18px">登录</button>
+    </div>
+    <p style="float: right;margin-right: 30px"><a href="#" style="text-decoration: none">立即注册</a> </p>
+</div>
+<div class="logo">
+    <img width="270" height="129" src="bd_logo1.png">
+</div>
+<div class="input">
+    <input class="input1" type="text" name="input">
+    <input class="input2" type="submit" value="百度一下">
+</div>
+<div class="detail one">
+    <a href="#">把百度设为主页</a>
+    <a href="#">关于百度</a>
+    <a href="#">About baidu</a>
+    <a href="#">百度推广</a>
+</div>
+<div class="detail two">
+    <p>©2017 Baidu <a href="#">使用百度前必读</a> <a href="#"> 意见反馈</a>   京ICP证030173号<a href="#"> 京公网安备11000002000001号</a> </p>
+</div>
+</div>
+</body>
+</html>
